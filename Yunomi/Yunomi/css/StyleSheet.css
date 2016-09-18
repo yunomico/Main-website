@@ -1,0 +1,121 @@
+﻿body{
+    font-size:15px;
+}
+
+.logo img {
+    width: 30%;
+}
+
+
+.nav-btn{
+    padding:1%;
+    margin:1%;
+    border:1px solid #222;
+}
+
+.nav-btn:hover{
+    background-color:#222;
+}
+
+.nav-btn:hover a{
+    color:white;
+}
+
+.nav-btn a{
+    text-decoration:none;
+    text-align:center;
+    color:black;
+}
+
+.navbar-nav{
+    margin-left:2%;
+    margin-right:2%;
+}
+
+.col-md-6 .cont-btn{
+    margin-top:10%;
+}
+
+
+.cont-btn {
+    text-align: center;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+    .cont-btn a {
+        border: #00cc44 solid 2px;
+        font-size: 20px;
+        text-decoration: none;
+        border-radius: 35px;
+        padding: 15px;
+        color: #00cc44;
+        transition: 0.5s;
+    }
+
+        .cont-btn a:hover {
+            background-color: #00cc44;
+            color: white;
+        }
+
+
+.head-cont {
+    margin: auto;
+}
+
+    .head-cont p {
+        font-size: large;
+    }
+
+.img-con {
+    position: relative;
+}
+
+    .img-con img {
+        width:100%;
+    }
+
+    .img-con h3 {
+        position: absolute;
+        bottom: 0;
+        color: white;
+        padding: 3%;
+    }
+
+.our-content a {
+    text-decoration: none;
+    color: black;
+}
+
+    .our-content a h3 {
+        transition: 1s;
+    }
+
+        .our-content a h3:hover {
+            color: green;
+        }
+
+.reverse{
+    color:white;
+    background:#293343;
+}
+
+.divide-cont{
+    margin-top:1%;
+    margin-bottom:1%;
+}
+
+.divide-cont img{
+    width:150px;
+    height:150px;
+}
+
+.divide-cont .our-content h3{
+    margin-top:0;
+}
+
+.default-cont, .reverse
+{
+    padding-top:3%;
+    padding-bottom:3%;
+}
