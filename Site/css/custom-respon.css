@@ -22,12 +22,16 @@
         padding-top:5%;
         padding-bottom:5%;
     }
+
+    #app,#search-bar{
+        display:none;
+    }
+    .navbar-nav li a:before, #seper:before{
+        display:none;
+    }
 }
 
 @media screen and (max-width:1000px) {
-    .navbar-nav {
-        font-size: 13px;
-    }
 
     .nav-btn {
         font-size: 11px;
