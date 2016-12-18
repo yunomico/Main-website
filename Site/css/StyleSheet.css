@@ -188,6 +188,11 @@ footer .bar-bottom p {
     margin: 0;
 }
 
+footer .join-mail-list input[type=submit] {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 /***********************************
  ***
  ***    Icons
@@ -240,7 +245,7 @@ footer .bar-bottom p {
 }
 
 .btn-dark-gray {
-    background: #323232;
+    background: #222;
     color: #eee;
     text-transform: uppercase;
     font-weight: bold;
@@ -251,6 +256,17 @@ footer .bar-bottom p {
     color: #eee;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.btn-yuco-primary {
+    background: #4b7ac6;
+    color: #fff;
+    transition: all .15s linear;
+}
+
+.btn-yuco-primary:hover {
+    background: #426eb3;
+    color: #fff;
 }
 
 /***********************************

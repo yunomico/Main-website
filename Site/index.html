@@ -6,8 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <link href="css/bootstrap.css" rel="stylesheet" />
-        <link href="css/bootstrap-theme.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link href="css/logo-nav.css" rel="stylesheet" />
         <link href="css/font-awesome.css"  rel="stylesheet"/>
         <link href="css/StyleSheet.css" rel="stylesheet" />
@@ -130,17 +129,29 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4"></div>
+                    <div class="col-md-3"></div>
 
-                    <div class="col-md-4 join-mail-list">
+                    <div class="col-md-5 join-mail-list">
                         <h4>Join Our Mailing List</h4>
-                        <form action="add-to-mail-list.php" method="POST" class="form-inline">
-                            <div class="form-group">
-                                <input type="email" name="emailAddress" placeholder="Enter your email"class="form-control dark-control">
-                            </div>
-
-                            <input type="submit" value="Submit" class="btn btn-dark">
-                        </form>
+                        
+                        <div id="mc_embed_signup">
+                            <form action="http://yunomico.us14.list-manage.com/subscribe/post?u=7bc5c89c096a315be3e39dc15&amp;id=f97262fc1b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate>
+                                <div id="mc_embed_signup_scroll">
+                                    <div class="form-group">
+                                        <input type="email" value="" name="EMAIL" class="email form-control dark-control" id="mce-EMAIL" placeholder="Enter your email" required>
+                                    </div>
+                                    
+                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                        <input type="text" name="b_7bc5c89c096a315be3e39dc15_f97262fc1b" tabindex="-1" value="">
+                                    </div>
+                                    
+                                    <div class="clear form-group">
+                                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-yuco-primary">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
 
                         <p>We will send an email update once we are done setting up!</p>
                     </div>
