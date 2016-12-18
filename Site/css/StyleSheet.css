@@ -280,24 +280,16 @@ footer .join-mail-list input[type=submit] {
     list-style: none;
 }
 
-.members-list li {
-    font-size: 0;
-}
-
 .members-list li .member-management,
 .members-list li .member-info {
     display: inline-block;
     vertical-align: top;
 }
 
-.members-list li .member-management {
-
-}
-
 .members-list li .member-info {
-    padding: 0 0 0 20px;
     box-sizing: border-box;
     overflow: hidden;
+    display: block;
 }
 
 .members-list li .know-about-border {
@@ -305,11 +297,15 @@ footer .join-mail-list input[type=submit] {
     font-size: 14px;
     color: #000;
     line-height: 2px;
-    width: 100%;
     margin: 10px 0;
     display: block;
     height: 2px;
+    width: 100%;
     background: linear-gradient(to right, transparent 0%, #ddd 10%, #ddd 40%, transparent 45%, transparent 55%, #ddd 60%, #ddd 90%, transparent 100%);
+}
+
+.members-list li .know-about-border .fa {
+    line-height: 5px;
 }
 
 .members-list li .extra-member-info {
@@ -317,12 +313,36 @@ footer .join-mail-list input[type=submit] {
     display: none;
 }
 
+.members-list .member-info h1,
+.members-list .member-info h5 {
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+}
+
+.members-list .member-info h1 {
+    letter-spacing: -3px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.members-list .member-info h5 {
+    letter-spacing: -1px;
+    color: #555;
+    margin-left: 3px;
+}
+
 .members-list li .user-icon {
-    display: inline-block;
     overflow: hidden;
-    height: 175px;
-    width: 175px;
+    height: 125px;
+    width: 125px;
     border-radius: 100%;
+    margin: 0 auto;
+}
+
+.members-list li .user-icon img {
+    display: block;
+    height: 100%;
+    width: 100%;
 }
 
 .members-list li .border-link-bottom, .members-list li .border-link-top {
@@ -348,6 +368,20 @@ footer .join-mail-list input[type=submit] {
     display: inline-block;
     margin-left: 50%;
     transform: translateX(-50%);
+}
+
+/***********************************
+ ***
+ ***    Ads
+ ***
+ ***********************************/
+
+.ad-box {
+    width: 100%;
+    margin-top: 30px;
+    height: 150px;
+    border: 1px solid #aaa;
+    background: #fff;
 }
 
 /***********************************
