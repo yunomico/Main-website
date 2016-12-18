@@ -261,6 +261,12 @@ footer .join-mail-list input[type=submit] {
 .btn-yuco-primary {
     background: #4b7ac6;
     color: #fff;
+    transition: all .15s linear;
+}
+
+.btn-yuco-primary:hover {
+    background: #426eb3;
+    color: #fff;
 }
 
 /***********************************
