@@ -2,8 +2,7 @@ $(function () {
     "use strict";
 
     $(".members-list .member-info").css({
-        "max-height": $(".members-list .member-management").height() + "px",
-        width: ($(".members-list").width() - $(".members-list .member-management").width()) + "px"
+        "max-height": $(".members-list .member-management").height() + "px"
     });
 
     $(".know-about-border").on("click", function () {
